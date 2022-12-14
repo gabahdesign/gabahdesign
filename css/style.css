@@ -936,7 +936,7 @@ a:focus {
     margin: 0 auto;
     width: 120px;
     padding: 10px;
-    border: 5px dotted #ffffff;
+    border: 0px dotted #ffffff;
     border-radius: 100px;
 }
 
@@ -1063,6 +1063,11 @@ a:focus {
     .about .about-content {
         padding: 45px 15px 0 15px;
     }
+}
+
+.about .about-text2 p {
+    font-size: 16px;
+    margin: 45px 0 0px 0;
 }
 
 /*******************************/

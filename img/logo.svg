@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 27.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Capa_2_00000109749246289294575790000014994493555094915744_"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1125 1350.8"
-	 style="enable-background:new 0 0 1125 1350.8;" xml:space="preserve">
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1125 1707.3"
+	 style="enable-background:new 0 0 1125 1707.3;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
 </style>
-<rect x="-45.7" y="-217.5" width="1216.3" height="1785.8"/>
-<path class="st0" d="M471.5,646.7h57V848H325.1c-133.2,0-198.8-58.3-198.8-172.2c0-115.1,65.4-172.2,200.1-172.2h202.5V562H326.3
-	c-95.8,0-141.8,37.5-141.8,113.9S231.7,791,327.5,791h144.2V646.7H471.5z"/>
-<path class="st0" d="M654.5,703.8h-57V502.5h201.3c133.2,0,200.1,58.3,200.1,173.4S932.2,854.1,797.5,848H597.4v-57h200.1
-	c95.8,0,144.2-38.7,144.2-115.1s-48.5-115.1-144.2-115.1h-143V703.8L654.5,703.8z"/>
+<rect x="-45.7" y="-39.3" width="1216.3" height="1785.8"/>
+<path class="st0" d="M471.5,824.9h57v201.3H325.1c-133.2,0-198.8-58.3-198.8-172.2c0-115.1,65.4-172.2,200.1-172.2h202.5v58.4H326.3
+	c-95.8,0-141.8,37.5-141.8,113.9s47.2,115.1,143,115.1h144.2V824.9H471.5z"/>
+<path class="st0" d="M654.5,882h-57V680.7h201.3c133.2,0,200.1,58.3,200.1,173.4s-66.7,178.2-201.4,172.1H597.4v-57h200.1
+	c95.8,0,144.2-38.7,144.2-115.1S893.2,739,797.5,739h-143V882L654.5,882z"/>
 </svg>

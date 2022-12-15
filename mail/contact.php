@@ -9,11 +9,11 @@ $email = strip_tags(htmlspecialchars($_POST['email']));
 $m_subject = strip_tags(htmlspecialchars($_POST['subject']));
 $message = strip_tags(htmlspecialchars($_POST['message']));
 
-$to = "info@example.com"; // Change this email to your //
+$to = "marcgabah@gmail.com"; // Change this email to your //
 $subject = "$m_subject:  $name";
-$body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\n\nEmail: $email\n\nSubject: $m_subject\n\nMessage: $message";
-$header = "From: $email";
-$header .= "Reply-To: $email";	
+$body = "Has rebut un missatge nou des del formulari de contacte del vostre Port Foli.\n\n"."Aquí teniu els detalls:\n\nNom: $name\n\n\nEmail: $email\n\nTítol: $m_subject\n\nMissatge: $message";
+$header = "De: $email";
+$header .= "Respondre a: $email";	
 
 if(!mail($to, $subject, $body, $header))
   http_response_code(500);

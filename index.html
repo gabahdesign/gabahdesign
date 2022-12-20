@@ -79,115 +79,110 @@
         <!-- Finalitza Inici -->
         
         <!-- Comença Serveis -->
-        <div class="container-xxl service py-5">
+        <div class="container-xxl serveis py-5" id="serveis">
             <div class="container">
                 <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                        <p>Que sé fer</p>
+                        <p>Que sé fer / buscar per que no van els botons - JavaScript</p>
                         <h2>Serveis</h2>
                     </div>
-                </div>
+                </div> 
+                
                 <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="col-lg-4">
-                        <div class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4">
-                            <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
-                                <h5 class="m-0"><i class="fa fa-laptop"></i> Disseny Gràfic Offline</h5>
-                            </button>
-                            <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
-                                <h5 class="m-0"><i class="fa fa-laptop"></i> Disseny Gràfic Online</h5>
-                            </button>
-                            <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
-                                <h5 class="m-0"><i class="fa fa-laptop-code"></i> Disseny Web</h5>
-                            </button>
-                            <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-0" data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
-                                <h5 class="m-0"><i class="fab fa-apple"></i> Disseny d'App</h5>
-                            </button>
-                        </div>
+                <div class="col-lg-4">
+                    <div class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4">
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="tab-pane-1">
+                            <h5 class="m-0"><i class="fa fa-laptop text-primary me-3"></i> Disseny Gràfic Offline</h5>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="tab-pane-2">
+                            <h5 class="m-0"><i class="fa fa-laptop text-primary me-3"></i> Disseny Gràfic Online</h5>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="tab-pane-3">
+                            <h5 class="m-0"><i class="fa fa-laptop-code text-primary me-3"></i> Disseny Web</h5>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-0" data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="tab-pane-4">
+                            <h5 class="m-0"><i class="fa fa-laptop-code text-primary me-3"></i> Disseny d'App</h5>
+                        </button>
                     </div>
-                    <div class="col-lg-8">
-                        <div class="tab-content w-100">
-                            <div class="tab-pane fade show active" id="tab-pane-1">
-                                <div class="row g-4">
-                                    <div class="col-md-6" style="min-height: 350px;">
-                                        <div class="position-relative h-100">
-                                            <img class="position-absolute rounded w-100 h-100" src="img/service-1.jpg"
+                </div>
+                <div class="col-lg-8">
+                    <div class="tab-content w-100">
+                        <div class="tab-pane fade show active" id="tab-pane-1">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="img/service-1.jpg"
                                             style="object-fit: cover;" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <h3 class="mb-4">Disseny Gràfic Offline</h3>
-                                        <p class="mb-4">Peçes de disseny gràfic preparades per a enviar a impremta utilitzant Adobe Photoshop, Adobe Illustrator, i Adobe InDesign.</p>
-                                        <p><i class="fa fa-check text-primary me-3"></i> Targetes de visita</p>
-                                        <p><i class="fa fa-check text-primary me-3"></i> Flyers, desplegables i cartells</p>
-                                        <p><i class="fa fa-check text-primary me-3"></i> Roll-Up</p>
-                                        <a href="" class="btn btn-primary py-3 px-5 mt-3">Llegir més</a>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="tab-pane fade" id="tab-pane-2">
-                                <div class="row g-4">
-                                    <div class="col-md-6" style="min-height: 350px;">
-                                        <div class="position-relative h-100">
-                                            <img class="position-absolute rounded w-100 h-100" src="img/service-2.jpg"
-                                                 style="object-fit: cover;" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <h3 class="mb-4">Disseny Gràfic Online, Edició d'Imatge i Vídeo, i Animació</h3>
-                                        <p class="mb-4">Peçes de disseny gràfic online, generalment banners, revistes digitals i publicacions per a xarxes socials.
-                                        </p>
-                                        <p>Utilitzant:</p>
-                                        <p><i class="fa fa-check text-primary me-3"></i> Adobe Photoshop</p>
-                                        <p><i class="fa fa-check text-primary me-3"></i> Adobe Illustrator</p>
-                                        <p><i class="fa fa-check text-primary me-3"></i> Adobe InDesign</p>
-                                        <p><i class="fa fa-check text-primary me-3"></i> After Effects</p>
-                                        <p><i class="fa fa-check text-primary me-3"></i> Adobe Premiere Pro</p>
-                                        <p><i class="fa fa-check text-primary me-3"></i> Adobe Media Encoder</p>
-                                        <a href="" class="btn btn-primary py-3 px-5 mt-3">Llegir més</a>
-                                    </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-4">Disseny Gràfic Offline</h3>
+                                    <p class="mb-4">Peçes de disseny gràfic preparades per a enviar a impremta utilitzant Adobe Photoshop, Adobe Illustrator, i Adobe InDesign.</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Targetes de visita</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Flyers, desplegables i cartells</p>
+                                        <p><i class="fa fa-check text-primary me-3"></i>Roll-Up</p>
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="tab-pane-3">
-                                <div class="row g-4">
-                                    <div class="col-md-6" style="min-height: 350px;">
-                                        <div class="position-relative h-100">
-                                            <img class="position-absolute rounded w-100 h-100" src="img/service-3.jpg"
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-2">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="img/service-2.jpg"
                                             style="object-fit: cover;" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <h3 class="mb-4">Disseny Web</h3>
-                                        <p class="mb-4">Disseny realitzat mitjançant...</p>
-                                        <p><i class="fa fa-check text-primary me-3"></i> Adobe Illustrator</p>
-                                        <p><i class="fa fa-check text-primary me-3"></i> Adobe Photoshop</p>
-                                        <p><i class="fa fa-check text-primary me-3"></i> Adobe XD</p>
-                                        <p><i class="fa fa-check text-primary me-3"></i> Figma</p>
-                                        <a href="" class="btn btn-primary py-3 px-5 mt-3">Llegir més</a>
                                     </div>
                                 </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-4">Disseny Gràfic Online</h3>
+                                    <p class="mb-4">Peçes de disseny gràfic online, generalment banners, revistes digitals i publicacions per a xarxes socials. Edició d'imatges i vídeo, i animació.</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Adobe Photoshop</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Adobe Illustrator</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Adobe InDesign</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>After Effects</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Adobe Premiere Pro</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Adobe Media Encoder</p>
+                                </div>
                             </div>
-                            <div class="tab-pane fade" id="tab-pane-4">
-                                <div class="row g-4">
-                                    <div class="col-md-6" style="min-height: 350px;">
-                                        <div class="position-relative h-100">
-                                            <img class="position-absolute rounded w-100 h-100" src="img/service-4.jpg"
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-3">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="img/service-3.jpg"
                                             style="object-fit: cover;" alt="">
-                                        </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <h3 class="mb-4">Disseny d'App</h3>
-                                        <p class="mb-4">Disseny realitzat mitjançant...</p>
-                                        <p><i class="fa fa-check text-primary me-3"></i> Adobe Illustrator</p>
-                                        <p><i class="fa fa-check text-primary me-3"></i> Adobe Photoshop</p>
-                                        <p><i class="fa fa-check text-primary me-3"></i> Adobe XD</p>
-                                        <p><i class="fa fa-check text-primary me-3"></i> Figma</p>
-                                        <a href="" class="btn btn-primary py-3 px-5 mt-3">Llegir més</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-4">Disseny Web</h3>
+                                    <p class="mb-4">Disseny realitzat mitjançant...</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Adobe Illustrator</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Adobe Photoshop</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Adobe XD</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Figma</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-4">
+                            <div class="row g-4">
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute rounded w-100 h-100" src="img/service-4.jpg"
+                                            style="object-fit: cover;" alt="">
                                     </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <h3 class="mb-4">Disseny d'App</h3>
+                                    <p class="mb-4">Disseny realitzat mitjançant...</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Adobe Illustrator</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Adobe Photoshop</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Adobe XD</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Figma</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
         <!-- Finalitza Serveis -->
@@ -203,44 +198,40 @@
                 <div class="timeline">
                     <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
                         <div class="timeline-text">
-                            <div class="timeline-date">Febrer 2022 - Novembre 2022</div>
+                            <div class="timeline-date">Febrer 2022 - Novembre 2022<p>(10 mesos)</p></div>
                             <h2>Dissenyador Gràfic</h2>
                             <h4>Yuhu Studio, Barcelona</h4>
-                            <p>
-                                Creació de contingut per a XXSS, disseny, maquetació i adaptació de tot tipo formats per a jornades gastronòmiques, disseny i maquetació de calendaris, disseny per a capses, roll-up, pòsters, panells, targetes de visita, tot tipo de desplegables, flyers, cartells, banderoles, vinils d’autobusos, lones...
-                            </p>
-                            <h5>Aptituds:</h5><p>Xarxes Socials · Adobe Photoshop · Adobe InDesign · Adobe Illustrator · Adobe After Effects · Adobe Media Encoder · Entorn Mac i Windows </p>
+                            <p>Creació de contingut per a XXSS, disseny, maquetació i adaptació de tot tipo formats per a jornades gastronòmiques, disseny i maquetació de calendaris, disseny per a capses, roll-up, pòsters, panells, targetes de visita, tot tipo de desplegables, flyers, cartells, banderoles, vinils d’autobusos, lones...</p>
+                            <h5>Aptituds:</h5><p>Xarxes Socials · Adobe Photoshop · Adobe InDesign · Adobe Illustrator · Adobe After Effects · Adobe Media Encoder.</p>
+                            <h5>Entorn Mac i Windows.</h5>
                         </div>
                     </div>
                     <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
                         <div class="timeline-text">
-                            <div class="timeline-date">Juliol 2021 - Febrer 2022</div>
+                            <div class="timeline-date">Juliol 2021 - Febrer 2022<p>(8 mesos)</p></div>
                             <h2>Dissenyador Gràfic</h2>
                             <h4>Projectes de Comunicació Visual INA DISSENY SL., Sant Boi de Llobregat</h4>
-                            <p>
-                                Creació de contingut audiovisual per a XXSS utilitzant after effects generalment, disseny i maquetació de cartes de restaurants i catàlegs gastronònomics, re-disseny de logotip, disseny de cartells, disseny i maquetació de calendaris, disseny per a capses, disseny roll-up, disseny targeta de visita.
-                            </p>
-                            <h5>Aptituds:</h5><p>Adobe Photoshop · Adobe InDesign · Adobe Illustrator · Adobe After Effects · Adobre Premiere Pro · Adobe Media Encoder · Entorn Mac</p>
+                            <p>Creació de contingut audiovisual per a XXSS utilitzant after effects generalment, disseny i maquetació de cartes de restaurants i catàlegs gastronònomics, re-disseny de logotip, disseny de cartells, disseny i maquetació de calendaris, disseny per a capses, disseny roll-up, disseny targeta de visita.</p>
+                            <h5>Aptituds:</h5><p>Adobe Photoshop · Adobe InDesign · Adobe Illustrator · Adobe After Effects · Adobre Premiere Pro · Adobe Media Encoder.</p>
+                            <h5>Entorn Mac.</h5>
                         </div>
                     </div>
                     <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
                         <div class="timeline-text">
-                            <div class="timeline-date">Abril 2018 - Octubre 2018</div>
+                            <div class="timeline-date">Abril 2018 - Octubre 2018<p>(7 mesos)</p></div>
                             <h2>Empleat en pràctiques de disseny</h2>
                             <h4>GRUP CEDESCA, Barcelona</h4>
-                            <p>
-                                Pràctiques d’empresa del CFGS en Disseny i Edició de Publicacions Impresses i Multimèdia, redissenyant pòsters i cartells, maquetant llibres i orles, fent il·lustracions per a les seves xarxes socials, maquetar video de benvinguda, el disseny del banner de l’aula virtual, redisseny i creació de flyers i desplegables (díptics, tríptics...), dissenyar i maquetar llibret, i edició d’imatges..
-                            </p>
+                            <p>Pràctiques d’empresa del CFGS en Disseny i Edició de Publicacions Impresses i Multimèdia, redissenyant pòsters i cartells, maquetant llibres i orles, fent il·lustracions per a les seves xarxes socials, maquetar video de benvinguda, el disseny del banner de l’aula virtual, redisseny i creació de flyers i desplegables (díptics, tríptics...), dissenyar i maquetar llibret, i edició d’imatges...</p>
+                            <h5>Entorn Windows.</h5>
                         </div>
                     </div>
                     <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
                         <div class="timeline-text">
-                            <div class="timeline-date">Novembre 2015 - Març 2016</div>
+                            <div class="timeline-date">Novembre 2015 - Març 2016<p>(5 mesos)</p></div>
                             <h2>Empleat en pràctiques de disseny</h2>
                             <h4>Eix Copisteria, Sant Boi de Llobregat</h4>
-                            <p>
-                                Pràctiques d’empresa del CFGM en Pre-impressió Digital, fent vinils, flyers i desplegables (díptics, tríptics...), pòsters, cartells, rotulació de comerços, targetes de visita, targetes de fidelizació, roll-up, calendaris, agendes, carpetes corporatives, plastificat, talonaris, maquetació de revistes, llibres, i fent impressions en blanc i negre, i a color.
-                            </p>
+                            <p>Pràctiques d’empresa del CFGM en Pre-impressió Digital, fent vinils, flyers i desplegables (díptics, tríptics...), pòsters, cartells, rotulació de comerços, targetes de visita, targetes de fidelizació, roll-up, calendaris, agendes, carpetes corporatives, plastificat, talonaris, maquetació de revistes, llibres, i fent impressions en blanc i negre, i a color.</p>
+                            <h5>Entorn Windows.</h5>
                         </div>
                     </div>
                 </div>

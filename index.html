@@ -499,47 +499,31 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-7">
                         <div class="bg-white border rounded p-4 p-sm-5 wow fadeInUp" data-wow-delay="0.5s">
-                            
                             <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
                                 <h1>Contacta'm</h1>
                             </div>
-                            
-                            <div class="row g-3">
-                                <div class="col-sm-6">
+                            <form action="mailto:marcgabah@gmail.com" method="post" name="form1">
+                                <div class="col-12">
                                     <div class="form-floating">
-                                        <input type="name" class="form-control" id="name" placeholder="Introdueix el teu nom">
-                                        <label for="name"> </label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control" id="email" placeholder="Introdueix el teu email">
-                                        <label for="email"> </label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-floating">
-                                        <input type="mobile" class="form-control" id="mobile" placeholder="Introdueix el teu telèfon">
-                                        <label for="mobile"> </label>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-floating">
-                                        <input type="subject" class="form-control" id="subject" placeholder="Si us plau escriu un títol">
-                                        <label for="subject"> </label>
+                                        <input id="nombre" name="nombre" type="text" class="form-control" placeholder="Introdueix el teu nom"/><label for="nombre"></label>
+                                    
+                                        <input id="email" name="email" type="text" class="form-control" placeholder="Introdueix el teu email"/><label for="email"></label>
+                                        
+                                        <input id="mobile" name="mobile" type="text" class="form-control" placeholder="Introdueix el teu telèfon"><label for="mobile"></label>
+                                
+                                        <input id="subject" type="subject" class="form-control" placeholder="Si us plau escriu un títol"><label for="subject"></label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Si us plau escriu aquí el teu missatge" id="message" style="height: 100px"></textarea>
-                                        <label for="message"> </label>
+                                        <div><textarea id="message" name="message" class="form-control" placeholder="Si us plau escriu aquí el teu missatge" style="height: 100px"></textarea></div><label for="message"></label>
                                     </div>
                                 </div>
                                 <div class="col-12 text-center">
-                                    <button class="btn btn-primary w-100 py-3" type="submit" href="mailto:marcgabah@gmail.com">Enviar Missatge</button>
+                                    <div><input name="Submit" type="submit" value="Enviar Missatge" class="btn btn-primary w-100 py-3"/>
+                                    </div>
                                 </div>
-                            </div>
-                            
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -563,9 +547,8 @@
                             <a href="https://www.facebook.com/gabahdesign/"><i class="fab fa-facebook-f"></i></a>
                             <a href="https://www.youtube.com/@gabahdesign"><i class="fab fa-youtube"></i></a>
                             <a href="https://www.instagram.com/gabahdesign/"><i class="fab fa-instagram"></i></a>
-                            <a href="https://twitter.com/gabahdesign"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.linkedin.com/in/gabahdesign/"><i class="fab fa-linkedin-in"></i></a>
                         </div>
-                        <div>   </div>
                     </div>
                 </div>
             </div>
